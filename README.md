@@ -66,3 +66,6 @@ java.lang.AssertionError: Found 6 accessibility violations:
    a) ["html"]
    Fix any of the following:
    Some page content is not contained by landmarks
+
+Reference : https://medium.com/@sapna.pathan/axe-tool-for-accessibility-testing-with-selenium-webdriver-using-java-e7a74a379ca7
+   
