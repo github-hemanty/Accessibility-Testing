@@ -20,6 +20,7 @@ java.lang.AssertionError: Found 6 accessibility violations:
 
 
 2) Images must have alternate text: https://dequeuniversity.com/rules/axe/3.1/image-alt?application=axeAPI
+
    a) [".a-text-center.a-row > img"]
    Fix any of the following:
    Element does not have an alt attribute
@@ -29,15 +30,14 @@ java.lang.AssertionError: Found 6 accessibility violations:
    Element's default semantics were not overridden with role="presentation"
    Element's default semantics were not overridden with role="none"
 
-
-b) [".a-color-secondary > img"]
-Fix any of the following:
-Element does not have an alt attribute
-aria-label attribute does not exist or is empty
-aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
-Element has no title attribute or the title attribute is empty
-Element's default semantics were not overridden with role="presentation"
-Element's default semantics were not overridden with role="none"
+   b) [".a-color-secondary > img"]
+   Fix any of the following:
+   Element does not have an alt attribute
+   aria-label attribute does not exist or is empty
+   aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+   Element has no title attribute or the title attribute is empty
+   Element's default semantics were not overridden with role="presentation"
+   Element's default semantics were not overridden with role="none"
 
 
 3) Form elements must have labels: https://dequeuniversity.com/rules/axe/3.1/label?application=axeAPI
